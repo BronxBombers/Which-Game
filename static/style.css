@@ -1,0 +1,49 @@
+
+body{
+   background: url("https://preview.ibb.co/ce24YQ/background.jpg")  no-repeat center center fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+img{
+  width: 50vw;
+  height: 20vh;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  font-style: italic;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 450%;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+h2{
+  font-family: Georgia, serif;
+  color: white;
+  text-align: center;
+  margin-top:25vh;
+  font-size: 6vm;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 4vm;
+  text-align: center;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+form{
+  color: white;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 2.5vmin;
+}

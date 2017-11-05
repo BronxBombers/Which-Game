@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href={{url_for("static", filename= "style.css")}}>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Which Game?</h1>
+    <img src= "https://preview.ibb.co/f4iTtQ/10645.png">
+    <h2>What is WhichGame.com?™</h2>
+    <p>When you own hundreds of Steam games, finding the perfect game for your current mood can be
+    difficult! Well, fortunately for you, which game is a tool designed to help you
+    decide which game to play if you the plight of owning
+    too many steam games. The tool utilizes a quick survey, which is backed by loads of science,
+    to condense how you are feeling and what your environment is like, into a few key words.
+    The tool then performs a search of your steam library for games to perfectly match your mood!
+    If you feel the survey misrepresents your mood do not fret! There are also preset moods to choose
+    from.
+    </p>
+    <form action="http://localhost:5000/survey">
+      Enter your steam ID here:<br>
+      <input type= "text" name= SteamID><br>
+      <input type= "submit">
+    </form>
+</html>
